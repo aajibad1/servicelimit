@@ -19,7 +19,7 @@ Create a plan to Track service limits and implementation of alerts if exceeding 
 
 ## Solution Architecture Flow Diagram
 
- 
+ ![image](https://github.com/aajibad1/servicelimit/blob/main/arch.jpg)
 
 ## Process Flow
 1.	The Lambda function refreshes the AWS Trusted Advisor Service Limits checks to retrieve the most current utilization and quota data through API calls once every 24 hrs.
